@@ -266,12 +266,6 @@ About
 Gallery
 ===============
 */
-.gallery-section {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
-
 .gallery-header {
   display: flex;
   justify-content: space-between;
@@ -299,7 +293,19 @@ Gallery
   background-color: #345b5e;
 }
 
+.gallery-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
 .photo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
   background-color: #ffedd836;
   border: 0.1rem solid #ccc;
   margin-bottom: 1rem;
@@ -308,6 +314,7 @@ Gallery
 
 .photo-item img {
   width: 100%;
+  max-width: 46.5rem;
   height: auto;
   margin-bottom: 0.5rem;
 }
