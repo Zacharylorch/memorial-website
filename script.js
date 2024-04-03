@@ -70,17 +70,17 @@ window.addEventListener('DOMContentLoaded', () => {
   mainContent.style.minHeight = `${mainContentHeight}px`;
 });
 
-// Dynamically change element sizes based on screen size
-window.addEventListener('resize', () => {
-  const mainContent = document.querySelector('.main-content');
-  const contentWrapper = document.querySelector('.container');
+// // Dynamically change element sizes based on screen size
+// window.addEventListener('resize', () => {
+//   const mainContent = document.querySelector('.main-content');
+//   const contentWrapper = document.querySelector('.container');
 
-  // Check if the main content overflows its container
-  if (mainContent.scrollHeight > contentWrapper.clientHeight) {
-    // Reduce font size or adjust other styles to fit the content
-    mainContent.style.fontSize = '90%';
-  } else {
-    // Restore original styles if content fits without overflow
-    mainContent.style.fontSize = '100%';
-  }
-});
+//   // Check if the main content overflows its container
+//   if (mainContent.scrollHeight > contentWrapper.clientHeight) {
+//     // Reduce font size or adjust other styles to fit the content
+//     mainContent.style.fontSize = '90%';
+//   } else {
+//     // Restore original styles if content fits without overflow
+//     mainContent.style.fontSize = '100%';
+//   }
+// });
