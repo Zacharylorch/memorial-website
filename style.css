@@ -12,30 +12,29 @@ Scrollbar
 ===============
 */
 /* Customizes the scrollbar for webkit browsers */
-/* Customizes the scrollbar to be more minimalistic, like on iOS */
 ::-webkit-scrollbar {
-  width: 5px; /* Slimmer width */
+  width: 5px;
   height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1); /* Semi-transparent track */
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent thumb */
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* Customizes the scrollbar for Firefox to be more minimalistic */
 * {
-  scrollbar-width: thin; /* "auto" or "thin" */
-  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1); /* Thumb and track color */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
 }
 /*
 =============== 
@@ -287,7 +286,7 @@ Gallery
 }
 
 .submit-photo-link {
-  background-color: #517c7e; /* Your primary button color */
+  background-color: #517c7e;
   color: white;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -297,27 +296,27 @@ Gallery
 }
 
 .submit-photo-link:hover {
-  background-color: #345b5e; /* Darken color on hover */
+  background-color: #345b5e;
 }
 
 .photo-item {
   background-color: #ffedd836;
-  border: 0.1rem solid #ccc; /* Adjust color and width as needed */
-  margin-bottom: 1rem; /* Space between items */
-  padding: 1rem; /* Padding around the image and caption */
+  border: 0.1rem solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .photo-item img {
-  width: 100%; /* Makes the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 0.5rem; /* Space between image and caption */
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
 }
 
 .caption {
   text-align: center;
   font-style: italic;
-  color: #666; /* Adjust caption color as needed */
-  font-size: 1.5rem; /* Adjust caption size as needed */
+  color: #666;
+  font-size: 1.5rem;
 }
 
 .caption-uploaded-by {
@@ -333,36 +332,36 @@ Submission Forms
 */
 .submit-container {
   margin: auto;
-  background-color: var(--light100); /* Soft background color */
+  background-color: var(--light100);
   border-radius: 0.8rem;
-  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 .submit-header h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: var(--brownTitle); /* Consistent title color */
+  color: var(--brownTitle);
   text-align: center;
-  margin-bottom: 1rem; /* Spacing below the header */
+  margin-bottom: 1rem;
 }
 
 .submission-contact {
   font-size: 1.5rem;
   text-align: center;
-  color: var(--brown300); /* Consistent text color for readability */
-  margin-top: 1rem; /* Space above the contact information */
+  color: var(--brown300);
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .submission-contact p {
-  margin: 0.5rem 0; /* Tightens the spacing between lines for a neat appearance */
-  line-height: 1.4; /* Improves readability */
+  margin: 0.5rem 0;
+  line-height: 1.4;
 }
 
 /* Specific styling for phone and email paragraphs for emphasis */
 .submission-contact p:nth-child(2),
 .submission-contact p:nth-child(3) {
-  font-weight: bold; /* Highlights the importance of contact details */
+  font-weight: bold;
 }
 
 .submission-contact p .phone-number {
@@ -371,14 +370,14 @@ Submission Forms
 }
 
 .form-group {
-  margin-bottom: 1.5rem; /* Spacing between form groups */
+  margin-bottom: 1.5rem;
 }
 
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--brown300); /* Slightly darker color for contrast */
-  font-size: 1.5rem; /* Readable label size */
+  color: var(--brown300);
+  font-size: 1.5rem;
 }
 
 .form-group input[type='text'],
@@ -386,23 +385,23 @@ Submission Forms
 .form-group input[type='file'] {
   width: 100%;
   padding: 0.75rem;
-  border: 0.1rem solid var(--tan200); /* Slightly darker border for inputs */
+  border: 0.1rem solid var(--tan200);
   border-radius: 0.4rem;
-  background-color: var(--white); /* White background for inputs */
-  color: var(--brown400); /* Text color inside inputs */
+  background-color: var(--white);
+  color: var(--brown400);
   font-size: 1.25rem;
 }
 
 .submit-btn {
-  background-color: var(--aqua); /* Primary button color */
+  background-color: var(--aqua);
   color: var(--white);
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
   font-size: 1.5rem;
-  display: block; /* Make the button block to center it */
-  margin: 0 auto; /* Center the button */
+  display: block;
+  margin: 0 auto;
   transition: background-color 0.3s ease;
 }
 
@@ -410,14 +409,13 @@ Submission Forms
   background-color: #3f5f61;
 }
 
-/* Utility styles for better form styling */
 select {
   cursor: pointer;
 }
 
 input[type='file'] {
-  border: none; /* Remove border for file input */
-  padding-left: 0; /* Remove padding for file input to align with the label */
+  border: none;
+  padding-left: 0;
 }
 /*
 =============== 
@@ -444,7 +442,7 @@ Stories
 }
 
 .submit-story-link {
-  background-color: #517c7e; /* Your primary button color */
+  background-color: #517c7e;
   color: white;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -455,17 +453,17 @@ Stories
 
 .story-item {
   background-color: #ffedd836;
-  border: 0.1rem solid #ccc; /* Adjust color and width as needed */
-  margin-bottom: 1rem; /* Space between items */
-  padding: 1rem; /* Padding around the image and caption */
+  border: 0.1rem solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .story {
   text-align: left;
   font-style: normal;
-  color: #333; /* Adjust text color as needed */
-  font-size: 1.5rem; /* Adjust text size as needed */
-  margin-bottom: 0.5rem; /* Space between story and details */
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .story-details-container {
@@ -476,8 +474,8 @@ Stories
 .story-date {
   text-align: left;
   font-weight: bold;
-  color: #666; /* Adjust text color as needed */
-  font-size: 1.2rem; /* Adjust text size as needed */
+  color: #666;
+  font-size: 1.2rem;
 }
 /*
 =============== 
@@ -520,17 +518,7 @@ footer {
 
 .divider {
   width: 22rem;
-  height: 0.1rem; /* Adjust height as needed */
+  height: 0.1rem;
   background-color: var(--white);
-  margin: 0 2rem; /* Adjust margin as needed */
+  margin: 0 2rem;
 }
-/*
-=============== 
-Media Queries
-===============
-*/
-/* @media screen and (max-width: 767px) {
-  .nav-links ul li a {
-    font-size: calc(2.55rem * 0.7rem);
-  }
-} */
