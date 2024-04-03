@@ -365,6 +365,11 @@ Submission Forms
   font-weight: bold; /* Highlights the importance of contact details */
 }
 
+.submission-contact p .phone-number {
+  text-decoration: none;
+  color: var(--brown300);
+}
+
 .form-group {
   margin-bottom: 1.5rem; /* Spacing between form groups */
 }
