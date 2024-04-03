@@ -307,6 +307,7 @@ Gallery
   justify-content: center;
   align-items: center;
   width: 80%;
+  max-width: 48.9rem;
   background-color: #ffedd836;
   border: 0.1rem solid #ccc;
   margin-bottom: 1rem;
