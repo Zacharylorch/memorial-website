@@ -308,7 +308,7 @@ Gallery
 }
 
 .photo-item img {
-  width: 100%; /* Makes the image responsive */
+  width: 75%; /* Makes the image responsive */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 0.5rem; /* Space between image and caption */
 }
